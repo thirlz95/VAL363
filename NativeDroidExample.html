@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Artists</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="nativedroid2.css" />
+        <link rel="stylesheet" type="text/css" href="nativedroid2.color.teal.css" />
+
+		
+		<script src="nd2settings.js"></script>
+	</head>
+	
+	<body>
+
+		<div data-role="page">
+
+		<div data-role="header" data-position="fixed" class="wow fadeIn">
+            <a href="#bottomsheetblock" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-more-vert"></i></a>
+            <a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class=""></i>
+            </a>
+            <h1 class="wow fadeIn" data-wow-delay='0.4s'>Artists</h1>
+		</div>
+		
+		
+
+	<form>
+	    <div class="ui-input-search ui-body-inherit ui-corner-all ui-shadow-inset ui-input-has-clear">
+	        <input data-type="search" data-enhanced="true" data-inset="false" id="pre-rendered-example-input" placeholder="Filter items..." value="">
+	    
+	    </div>
+	    <div data-role="controlgroup" data-enhanced="true" data-filter="true" data-filter-reveal="true" data-input="#pre-rendered-example-input" class="ui-controlgroup ui-controlgroup-vertical ui-corner-all">
+	        <div class="ui-controlgroup-controls">
+	            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-shadow ui-screen-hidden">Blues</a>
+	            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-first-child ui-shadow ui-last-child">Electronica</a>
+	            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-shadow ui-screen-hidden">Rock</a>
+	            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-shadow ui-screen-hidden">Pop</a>
+	            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-shadow ui-screen-hidden">Grime</a>
+	        </div>
+	    	</div>
+	</form>
+
+
+			<div role="main" class="ui-content" data-inset="false">
+
+				<ul data-role="listview" data-icon="false">
+					<li data-role="list-divider">Artists</li>
+
+					<li>
+					<ul data-role="listview" data-icon="false">
+					<ul data-role="listview" data-icon="false">
+				<li>
+					<a href="#">
+						<img src="//lorempixel.com/150/150/people/1/" class="ui-thumbnail ui-thumbnail-circular" />
+						<h2>Bob Sinclar</h2>
+						<p>Genre: Blues</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="//lorempixel.com/150/150/people/2/" class="ui-thumbnail ui-thumbnail-circular" />
+						<h2>Britney Spears</h2>
+						<p>Genre: Pop</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="//lorempixel.com/150/150/people/3/" class="ui-thumbnail ui-thumbnail-circular" />
+						<h2>Bugzy Malone</h2>
+						<p>Genre: Grime</p>
+					</a>
+				</li>
+				<li>
+				<a href="#">
+							<img src="//lorempixel.com/150/150/people/4/" class="ui-thumbnail ui-thumbnail-circular" />
+							<h2>David Guetta</h2>
+							<p>Genre: Electronica</p>
+						</a>
+					</li>
+					<li>
+					<a href="#">
+							<img src="//lorempixel.com/150/150/people/5/" class="ui-thumbnail ui-thumbnail-circular" />
+							<h2>Jason Derulo</h2>
+							<p>Genre: Pop</p>
+						</a>
+					</li>
+
+					<li>
+					<a href="#">
+							<img src="//lorempixel.com/150/150/people/4/" class="ui-thumbnail ui-thumbnail-circular" />
+							<h2>Ozzy Osbourne</h2>
+							<p>Genre: Rock</p>
+						</a>
+					</li>
+			</ul>
+
+			</div>
+
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="waves.min.css"></script>
+		<script src="nativedroid2.js"></script>
+		<script src="nd2settings.js"></script>
+
+	</body>
+</html>

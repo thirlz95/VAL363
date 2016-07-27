@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS `app_restaurant_category`;
+CREATE TABLE IF NOT EXISTS `app_restaurant_category` (
+  `catID` int(7) NOT NULL auto_increment,
+  `catName` varchar(30) default NULL,
+   PRIMARY KEY `catID` (`catID`)
+) DEFAULT CHARSET=latin1 AUTO_INCREMENT=300;
+
+INSERT INTO `app_restaurant_category` (`catID`, `catName`) VALUES
+(1, 'Rock'),
+(2, 'Electronic'),
+(3, 'Pop'),
+(4, 'blues');

@@ -1,0 +1,24 @@
+***INSTRUCTIONS***
+-------------------------------------------------------------------------------------------------------------------------------------------
+BREIF
+
+Scenario: 
+You work for a digital agency that develops both websites and mobile apps. You have been
+asked to create a mobile app that allows users to leave reviews about music artists. Users
+should be able to view artists alphabetically by name or by genre. When an artist is selected the
+app will take the user to a page that provides more information about the artist, this should
+include an image and some information about the artist such as album or gig information. Artist
+information will be available to all users but only users who are registered and logged in will be
+able to leave a review. Once logged in a user will be able to add a review against an artist, this
+review will be saved to the database and will be available for view to any other user. There
+should be an option to register for an account. You will be designing your app for the Android
+market with the intention to sell the app on Google Play (although you will not be expected to
+launch the app on this store).
+-------------------------------------------------------------------------------------------------------------------------------------------
+Files which corrospond to each piece of functionality
+SplashScreen.html - Start of user journey, user can select different login methords (Guest, Member & Sign Up)
+Register.php - i'll let you guess, the bugger is broken at the min 
+NativeDroidExample.html - this is the crude basic code which I've created to show users the DB Entries however it's only HTML at the moment
+-------------------------------------------------------------------------------------------------------------------------------------------
+server link - http://unn-w14040301.newnumyspace.co.uk/VAL363/FILE_NAME_HERE
+-------------------------------------------------------------------------------------------------------------------------------------------
